@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 2</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Seus dados</legend>
+            
+            <ul>
+                <li>
+                    <label for="nome">Nome: </label>
+                    <input id="nome" type="text" name="nome" size="100" placeholder="Insira seu Nome" required><br>
+                </li>
+
+                <li>
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input id="sobrenome" type="text" name="sobrenome" size="100" placeholder="Insira seu Sobrenome" required><br>
+                </li>
+
+                <li>
+                    <label for="nascimento">Data de Nascimento: </label>
+                    <input id="nascimento" type="date" name="nascimento" min="1920-01-01" max="2024-01-01"><br>
+                </li>
+
+                <li>
+                    <input id="sexom" type="radio" name="sexo" value="1"/>
+                    <label for="sexom">Masculino:</label>
+                    <input id="sexof" type="radio" name="sexo" value="2"/>
+                    <label for="sexof">Feminino:</label><br>
+                </li>
+
+                <li>
+                    <label for="endereco">Endereço: </label>
+                    <input id="endereco" type="text" name="endereco" maxlength="200"><br>
+                </li>
+
+                <li>
+                    <label for="cep">Cep: </label>
+                    <input id="cep" type="text" name="cep" maxlength="10"><br>
+                </li>
+
+                <li>
+                    <label for="cor">Cor Favorita: </label>
+                    <input type="color" name="cor" id="cor"><br>
+                </li>
+
+                <li>
+                    <label for="uf">Escolha uma UF:</label>
+                    <select id="uf" name="uf">
+                        <option value="AC">Acre (AC)</option>
+                        <option value="AL">Alagoas (AL)</option>
+                        <option value="AP">Amapá (AP)</option>
+                        <option value="AM">Amazonas (AM)</option>
+                        <option value="BA">Bahia (BA)</option>
+                        <option value="CE">Ceará (CE)</option>
+                        <option value="DF">Distrito Federal (DF)</option>
+                        <option value="ES">Espírito Santo (ES)</option>
+                        <option value="GO">Goiás (GO)</option>
+                        <option value="MA">Maranhão (MA)</option>
+                        <option value="MT">Mato Grosso (MT)</option>
+                        <option value="MS">Mato Grosso do Sul (MS)</option>
+                        <option value="MG">Minas Gerais (MG)</option>
+                        <option value="PA">Pará (PA)</option>
+                        <option value="PB">Paraíba (PB)</option>
+                        <option value="PR">Paraná (PR)</option>
+                        <option value="PE">Pernambuco (PE)</option>
+                        <option value="PI">Piauí (PI)</option>
+                        <option value="RJ">Rio de Janeiro (RJ)</option>
+                        <option value="RN">Rio Grande do Norte (RN)</option>
+                        <option value="RS">Rio Grande do Sul (RS)</option>
+                        <option value="RO">Rondônia (RO)</option>
+                        <option value="RR">Roraima (RR)</option>
+                        <option value="SC">Santa Catarina (SC)</option>
+                        <option value="SP">São Paulo (SP)</option>
+                        <option value="SE">Sergipe (SE)</option>
+                        <option value="TO">Tocantins (TO)</option>
+                    </select><br> 
+                </li>
+            </ul>
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"> 
+        </fieldset>   
+    </form>
+</body>
+</html>
