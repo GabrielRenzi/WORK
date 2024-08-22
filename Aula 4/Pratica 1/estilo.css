@@ -1,11 +1,73 @@
+* {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 fieldset {
     background-color: gray;
+    
 }
 
-div {
-    background-color: aquamarine;
+div{
+    padding: 5px;
 }
 
-#cadastro1 {
-    background-color: blue;
+#principal {
+    background-color: lightblue;
 }
+
+#end {
+    background-color: lightblue;
+}
+
+#final {
+    background-color: lightblue;
+}
+
+legend {
+    font-size: 21px;
+}
+
+.botao {
+    background-color: #4CAF50; /* Verde padrão */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Arredonda as bordas */
+    transition: background-color 0.3s; /* Transição suave */
+  }
+  
+  .botao:hover {
+    background-color: #3e8e41; /* Verde mais escuro ao passar o mouse */
+  }
+  
+  .botao:active {
+    background-color: #367c39; /* Verde ainda mais escuro ao clicar */
+    transform: translateY(2px); /* Leve efeito de "pressionado" */
+  }
+  
+  /* Estilos específicos para o botão "Limpar" */
+  .botao[type="reset"] {
+    background-color: #f44336; /* Vermelho padrão */
+  }
+  
+  .botao[type="reset"]:hover {
+    background-color: #d32f2f; /* Vermelho mais escuro */
+  }
+  
+  .botao[type="reset"]:active {
+    background-color: #c62828; /* Vermelho ainda mais escuro */
+  }
+  
