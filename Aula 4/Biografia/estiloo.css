@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto img {
+    width: 200px;
+    height: auto;
+    border-radius: 20%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info p {
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.experiencia, .educacao {
+    margin-bottom: 20px;
+}
+
+.experiencia ul, .educacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experiencia li, .educacao li {
+    margin-bottom: 10px;
+}
+
+.experiencia li h3, .educacao li h3 {
+    margin-top: 0;
+}
+
+.experiencia li p, .educacao li p {
+    margin-bottom: 5px;
+}
+
+.habilidades {
+    margin-bottom: 20px;
+}
+
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.habilidades li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
